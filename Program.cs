@@ -30,7 +30,7 @@ namespace OutlookEmailExtraction
 
             foreach (var item in messages)
             {
-                Console.WriteLine(item.Subject + " " + item.BodyPreview + " " + item.Sender + " " + item.SentDateTime);
+                Console.WriteLine(item.Subject + " " + item.BodyPreview + " " + item.Sender + " " + item.Attachments);
             }
 
             Console.Read();
